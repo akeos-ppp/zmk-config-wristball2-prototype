@@ -88,8 +88,8 @@
 
         default_layer {
             bindings = <
-&mkp LCLK  &mkp RCLK      &lt 1 C
-&lt 5 D    &pmw_rotation  &to 2
+&mkp MCLK  &lt 5 SPACE    &mkp LCLK
+&mkp RCLK  &pmw_rotation  &to 2
             >;
         };
 
