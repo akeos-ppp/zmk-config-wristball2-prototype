@@ -62,6 +62,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        lunch {
+            bindings = <&kp RG(L)>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
@@ -89,8 +94,8 @@
 
         default_layer {
             bindings = <
-&mkp MCLK  &lt 5 SPACE    &mkp LCLK
-&mkp RCLK  &pmw_rotation  &to 2
+&kp RC(UP_ARROW)  &lt 5 SPACE    &mkp LCLK
+&mkp RCLK         &pmw_rotation  &to 2
             >;
         };
 
